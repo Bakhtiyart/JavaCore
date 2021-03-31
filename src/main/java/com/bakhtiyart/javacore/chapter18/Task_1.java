@@ -35,14 +35,7 @@ public class Task_1 {
                 sorted.add(i);
             }
         }
+        Collections.sort(sorted);
         return sorted;
-    }
-
-    static class MyComparator implements Comparator<Integer> {
-
-        @Override
-        public int compare(Integer a, Integer b) {
-            return a.compareTo(b);
-        }
     }
 }
